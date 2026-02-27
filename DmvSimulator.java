@@ -1,6 +1,6 @@
 public class DmvSimulator {
     public static void main(String[] args) {
-        int maxNumber = 100;
+        int maxNumber = 200;
         int userNumber = (int) (Math.random() * maxNumber) + 1;
 
         System.out.println("Welcome to the DMV.");
