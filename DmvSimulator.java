@@ -12,6 +12,6 @@ public class DmvSimulator {
         }
 
         System.out.println("Now serving number " + userNumber + ".");
-        System.out.println("You do not have the required paperwork.");
+        System.out.println("You don't have the required paperwork you literal nasty little piece of human garbage scum.");
     }
 }
