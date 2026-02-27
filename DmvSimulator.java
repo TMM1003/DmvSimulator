@@ -12,6 +12,11 @@ public class DmvSimulator {
         }
 
         System.out.println("Now serving number " + userNumber + ".");
-        System.out.println("You don't have the required paperwork you literal nasty little piece of human garbage scum.");
+
+        if (Math.random() < 0.99) {
+            System.out.println("You don't have the required paperwork you literal nasty little piece of human garbage scum.");
+        } else {
+            System.out.println("You have all of the required paperwork and you are all set.");
+        }
     }
 }
